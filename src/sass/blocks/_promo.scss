@@ -1,0 +1,108 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr auto;
+    grid-template-rows: 100px;
+    column-gap: 20px;
+    align-items: center;
+}
+.promo {
+    min-height: 680px;
+    background: url(../../img/promo/bg_promo.png) center center/cover no-repeat;
+    padding: 23px 0 80px;
+    text-align: center;
+    &__logo {
+        width: 96px;
+        height: 100px;
+        justify-items: start;
+    }
+    &__nav-items {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+    &__nav-links {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 16.71px;
+        cursor: pointer;
+        &:hover, &:active {
+            color: $buttons-color;
+        }
+    }
+    &__contact {
+        text-align: right;
+        &-text {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            opacity: 0.6;
+        }
+        &-phone {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 24px;
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+                color: $buttons-color;
+            }
+        }
+    }
+    &__suptitle {
+        margin-top: 10px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        opacity: 0.6;
+    }
+    &__subtitle {
+        margin: 10px 0 0;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__divider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 38px;
+        &-line {
+            width: 390px;
+            height: 1px;
+            border-bottom: none;
+            background-color: #fff;
+            opacity: 0.6;
+        }
+        &-point {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #fff;
+            margin: 0 10px 0;
+            opacity: 0.6;
+        }
+
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 27px;
+        opacity: 0.6;
+        &-descr {
+            margin-top: 13px;
+            width: 248px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+
+}

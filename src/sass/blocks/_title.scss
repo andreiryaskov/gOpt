@@ -1,0 +1,15 @@
+.title {
+    text-align: center;
+    font-weight: 700;
+    color: #2e2e2e;
+    font-size: 26px;
+    &__promo {
+        margin-top: 26px;
+        margin-bottom: 0;
+        color: $buttons-color;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
