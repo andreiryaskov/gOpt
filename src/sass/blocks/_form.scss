@@ -1,0 +1,39 @@
+.form {
+    margin-top: 66px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    min-height: 166px;
+    border: 1px solid #898989;
+    position: relative;
+    &__legend {
+        width: 102px;
+        top: -35%;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        &_radius {
+            width: 102px;
+            height: 102px;
+            background: #fff;
+            border: 1px solid #e93b3b;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    input {
+        width: 270px;
+        height: 45px;
+        border-radius: 50px;
+        border: 1px solid #898989;
+        margin: 0 3px;
+        color: #898989;
+        padding: 20px 25px;
+        margin-top: 17px;
+        outline: none;
+    }
+}

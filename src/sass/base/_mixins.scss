@@ -1,0 +1,13 @@
+@mixin divider {
+    &:after {
+        content: '';
+        position: absolute;
+        width: 148px;
+        height: 1px;
+        border-bottom: none;
+        background: $buttons-color;
+        top: 46px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

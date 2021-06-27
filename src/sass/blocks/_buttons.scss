@@ -19,4 +19,14 @@
         font-weight: 700;
         line-height: 17.35px;
     }
+    &__prices {
+        margin: 25px auto;
+    }
+    &__form {
+        position: absolute;
+        margin-top: 30px;
+        width: 180px;
+        top: 110px;
+        transform: translateX(-50%);
+    }
 }

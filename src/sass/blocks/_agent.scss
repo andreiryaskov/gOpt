@@ -1,0 +1,31 @@
+.agent {
+    padding: 60px 0 75px;
+    min-height: 340px;
+    background: url(../../img/work/bg_services.png) center center/cover no-repeat;
+    &__radius {
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.6;
+    }
+    &__descr {
+        margin: 22px auto 0;
+        text-align: center;
+        width: 984px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        opacity: 0.6;
+    }
+}
+.managers {
+    padding: 60px 0 75px;
+    min-height: 340px;
+    background: url(../../img/managers/bg_managers.png) center center/cover no-repeat;
+}
