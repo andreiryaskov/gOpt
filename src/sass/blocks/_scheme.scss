@@ -1,0 +1,30 @@
+.scheme {
+    min-height: 455px;
+    padding: 50px 0 45px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 7px;
+    }
+    &__items {
+       width: 255px;
+       margin: 26px 10px;
+    }
+    &__title {
+        color: $buttons-color;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__descr {
+        width: 253px;
+        height: 57px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+}

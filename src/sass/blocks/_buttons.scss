@@ -8,8 +8,8 @@
     line-height: 22.04px;
     text-align: center;
     text-transform: uppercase;
-    border: none;
     border-radius: 50px;
+    border: none;
     &__promo {
         margin-top: 40px;
         width: 230px;
@@ -23,10 +23,6 @@
         margin: 25px auto;
     }
     &__form {
-        position: absolute;
-        margin-top: 30px;
         width: 180px;
-        top: 110px;
-        transform: translateX(-50%);
     }
 }

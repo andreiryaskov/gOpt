@@ -29,4 +29,7 @@
         color: #ffffff;
         text-transform: none;
     }
+    &__feed {
+        @include divider;
+    }
 }

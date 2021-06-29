@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import 'libs/slick';
 @import 'base/variables';
 @import 'base/mixins';
 * {
@@ -21,3 +22,5 @@
 @import 'blocks/form';
 @import 'blocks/work';
 @import 'blocks/agent';
+@import 'blocks/scheme';
+@import 'blocks/feed';

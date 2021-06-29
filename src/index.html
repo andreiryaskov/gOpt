@@ -2,13 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GlobalOpt</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section class="promo" style="background: url(img/promo/bg_promo.png) center center/cover no-repeat;">
         <div class="container">
             <header class="header">
                 <div class="promo__logo"><img src="icons/logo.png" alt="logo"></div>
@@ -148,7 +148,7 @@
             </div>
         </div>
     </section>
-    <section class="agent">
+    <section class="agent" style="background: url(img/work/bg_services.png) center center/cover no-repeat;">
         <div class="container">
             <div class="agent__radius"><img src="img/work/agent_icon.png" alt="agent" class="agent__img"></div>
             <div class="title title__agent">Агент в Китае</div>
@@ -196,23 +196,75 @@
             </div>
             <div class="title title__consultation">Заказать бесплатную консультацию</div>
             <form action="#" class="form">
-                <fieldset>
-                    <legend class="form__legend"><div class="form__legend_radius"><img src="img/prices/consultation.png" alt="cons" class="form__legend_img"></div></legend>
+                <fieldset class="form__fieldset">
+                    <div class="form_up"><img src="img/prices/form_legend.png" alt="cons" class="form__legend_img"></div>
                     <input name="name" placeholder="Ваше имя..." type="text">
                     <input name="phone" placeholder="Ваш телефон...">
                     <input name="email" placeholder="Ваш E-mail..." type="email">
-                    <legend><button class="button button__form">Отправить заявку</button></legend>
+                    <div class="form_down"><button class="button button__form">Отправить заявку</button></div>
                 </fieldset>
             </form>
         </div>
     </section>
-    <section class="agent managers">
+    <section class="agent managers" style="background: url(img/managers/bg_managers.png) center center/cover no-repeat;">
         <div class="container">
             <div class="agent__radius"><img src="img/managers/managers.png" alt="managers" class="agent__img"></div>
             <div class="title title__agent">Менеджеры компании</div>
             <div class="agent__descr">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.</div>
         </div>
     </section>
+    <section class="scheme">
+        <div class="container">
+            <div class="title title__scheme">Схема работы с нами</div>
+            <div class="scheme__wrapper">
+                <div class="scheme__items">
+                    <img src="img/work_scheme/application.png" alt="application" class="scheme__img">
+                    <div class="scheme__title">Заявка</div>
+                    <div class="scheme__descr">Вы оставляете заявку на нашем сайте или звоните нам</div>
+                </div>
+                <div class="scheme__items">
+                    <img src="img/work_scheme/analitic.png" alt="analitic" class="scheme__img">
+                    <div class="scheme__title">Аналитика доставки</div>
+                    <div class="scheme__descr">Мы просчитываем варианты доставки Вашего груза</div>
+                </div>
+                <div class="scheme__items">
+                    <img src="img/work_scheme/contract.png" alt="contract" class="scheme__img">
+                    <div class="scheme__title">Договор</div>
+                    <div class="scheme__descr">Заключаем с Вами договор о поставке груза из Китая</div>
+                </div>
+                <div class="scheme__items">
+                    <img src="img/work_scheme/delivery.png" alt="del" class="scheme__img">
+                    <div class="scheme__title">Доставка на наш склад</div>
+                    <div class="scheme__descr">Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад </div>
+                </div>
+                <div class="scheme__items">
+                    <img src="img/work_scheme/check.png" alt="check" class="scheme__img">
+                    <div class="scheme__title">Проверка груза</div>
+                    <div class="scheme__descr">Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе</div>
+                </div>
+                <div class="scheme__items">
+                    <img src="img/work_scheme/delivery_2.png" alt="delivery" class="scheme__img">
+                    <div class="scheme__title">Доставка груза</div>
+                    <div class="scheme__descr">Мы перевозим ваш груз до места назначения и производим таможенную очистку</div>
+                </div>
+                <div class="scheme__items">
+                    <img src="img/work_scheme/payment.png" alt="payment" class="scheme__img">
+                    <div class="scheme__title">Оплата</div>
+                    <div class="scheme__descr">Оплачиваете доставку груза при получении </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feed">
+        <div class="feed__container">
+            <div class="title title__feed">отзывы наших клиентов</div>
+            <div class="feed__subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
+            
+        </div>
+    </section>
+    
+
+    
     <script src="js/script.js"></script>
 </body>
 </html>
